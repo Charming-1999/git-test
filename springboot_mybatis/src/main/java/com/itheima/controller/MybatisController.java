@@ -21,6 +21,7 @@ public class MybatisController {
     @ResponseBody
     public List<User> queryUserList(){
         List<User> users = userMapper.queryUserList();
+        System.out.println("git");
         return users;
     }
 }
